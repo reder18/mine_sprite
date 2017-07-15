@@ -1,0 +1,138 @@
+html { margin:0; padding:0;}
+body { margin:0; padding:0; color:#666; font:normal 13px/22px Helvetice, Arial, sans-serif; background:#fff;}
+.clear { clear:both;}
+p { margin:0; padding:10px 0;}
+a { color:#0000ff; text-decoration:underline;}
+a:hover { color:#7777ff;}
+a img { border:none;}
+h1, h2, h3, h4, h5, h6 { margin:0; padding:0; font-weight:bold; color:#000;}
+h1 { padding:40px 0 24px; line-height:1.4em;}
+h2 { padding:0 0 12px;}
+strong { font-weight:bold;}
+em { font-style:italic;}
+form, menu, iframe { display:block; margin:0; padding:0; border:none;}
+ol, ul, dl, li, dt, dd { margin:0; padding:0; list-style:none;}
+* { outline:none;}
+
+body{
+	background: url(../images/fon.png);
+
+}
+
+.container {
+	background: white;
+	width: 960px;
+	border-radius: 10px;
+	margin: 30px  auto;
+}
+
+.line{
+	background: #023875;
+	line-height: 42px;
+	border-radius: 10px;
+}
+
+.up {
+	float: left;
+	margin: 24px 0 14px 18px;
+
+
+}
+.banket{
+	color: #023875;
+	font: bold 24px/1.4em Arial;
+	text-decoration: none;
+}
+.kolesov{
+	color: #023875;
+	font: bold 48px/1.2em Arial;
+	text-decoration: none;
+}
+.sait{
+	color: black;
+	font: normal 14px/1.4em Arial;
+	text-decoration: none;
+}
+
+.phone {
+	float: right;
+	margin: 20px 10px 0 0;
+}
+#info{
+	font-size: 1.8em;
+	color: #023875;
+}
+.number{
+	text-decoration: none;
+}
+
+#work{
+	float: right;
+}
+
+
+.ship{
+	float: right;
+	margin: 7px 0 20px 10px;
+}
+
+
+
+.picture {
+	margin: 0 0 0 14px;
+}
+
+
+.text {
+	float: left;
+	width: 600px;
+	margin: 0 0 0 16px;
+}
+
+.text h2{
+	font-size: 1.4em;
+	color: #023875;
+}
+
+
+.sidebar{
+	width: 300px;
+	float: right;
+	margin: 0 14px 0 0;
+}
+
+.sidebar h2 {
+	background: #023875;
+	color: white;
+	padding: 12px 12px;
+	height: 43px;
+
+}
+
+.sidebar ul {
+	list-style-type: none;
+	text-transform: uppercase;
+	margin: 0 0 0 -10px;
+}
+.sidebar li{
+	line-height: 1.8em;
+}
+.sidebar li a{
+	color:#023875;
+}
+
+
+footer{
+	color: white;
+	background:#023875;
+	border-radius: 10px;
+	line-height: 48px;
+	margin: 116px auto;
+
+}
+footer p{
+	margin: 0 0 0 23px;
+}
+.clear:after{
+	content: ""; display: block; clear: both;
+}
